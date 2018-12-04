@@ -55,14 +55,14 @@
       </build>
       <distributionManagement>
         <repository>
-          <id>user-release</id>
+          <id>nexus-release</id>
           <name>admin</name>
-          <url>http://localhost:8081/nexus/content/repositories/releases</url>
+          <url>http://localhost:8081/repository/nexus-releases/</url>
         </repository>
         <snapshotRepository>
-          <id>user-snapshots</id>
+          <id>nexus-snapshots</id>
           <name>admin</name>
-          <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
+          <url>http://localhost:8081/repository/nexus-snapshots/</url>
         </snapshotRepository>
       </distributionManagement>
     </profile>
@@ -70,14 +70,14 @@
 
   <distributionManagement>
     <repository>
-      <id>user-release</id>
+      <id>nexus-release</id>
       <name>admin</name>
-      <url>http://localhost:8081/nexus/content/repositories/releases</url>
+      <url>http://localhost:8081/repository/nexus-releases/</url>
     </repository>
     <snapshotRepository>
-      <id>user-snapshots</id>
+      <id>nexus-snapshots</id>
       <name>admin</name>
-      <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
+      <url>http://localhost:8081/repository/nexus-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
 </project>

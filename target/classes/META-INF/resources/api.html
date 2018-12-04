@@ -175,9 +175,9 @@
                                     <td>{{:name}}</td>
                                     <td>
                                     {{if required}}
-                                        <input type="text" p_operationId="{{:~root.operationId}}" name="{{:name}}" in="{{:in}}" required="required" placeholder="required" autocomplete="off" class="layui-input">
+                                        <input type="text" p_operationId="{{:~root.operationId}}" value="{{:default}}" name="{{:name}}" in="{{:in}}" required="required" placeholder="required" autocomplete="off" class="layui-input">
                                     {{else}}
-                                        <input type="text" p_operationId="{{:~root.operationId}}" name="{{:name}}" in="{{:in}}" autocomplete="off" class="layui-input">
+                                        <input type="text" p_operationId="{{:~root.operationId}}" value="{{:default}}" name="{{:name}}" in="{{:in}}" autocomplete="off" class="layui-input">
                                     {{/if}}
                                     </td>
                                     <td>{{:description}}</td>

@@ -9,5 +9,8 @@
         <module name="xincan-api-ui-layer" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="xincan-api-ui-layer" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
