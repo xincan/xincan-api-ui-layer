@@ -23,8 +23,7 @@
                     </div>
                 </div>
                 <div class="layui-side layui-bg-black" id="admin-side">
-                    <div class="layui-side-scroll" id="admin-navbar-side"
-                        lay-filter="side">
+                    <div class="layui-side-scroll" id="admin-navbar-side" lay-filter="side">
                         <ul class="layui-nav layui-nav-tree beg-navbar">
                             {{for tags itemVar="~tag"}}
                                 {{if name != "basic-error-controller"}}
@@ -42,7 +41,8 @@
                                                     <dd title="{{:key}} {{:prop.description}}">
                                                         <a href="javascript:;" name="a_path" path="{{:~path.key}}" method="{{:key}}" operationId="{{:prop.operationId}}">
                                                             <i class="fa fa-navicon" data-icon="fa-navicon"></i>
-                                                            <cite class="">{{:~path.key}}</cite><cite class="{{:key}}_font pl10">{{:prop.summary}}</cite>
+                                                            <!--<cite class="">{{:~path.key}}</cite>-->
+                                                            <cite class="{{:key}}_font pl10">{{:prop.summary}}</cite>
                                                         </a>
                                                     </dd>
                                                 {{/if}}
@@ -55,8 +55,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="layui-body site-content" id="path-body"
-                    style="border-left: solid 2px #1AA094;">
+                <div class="layui-body site-content" id="path-body" style="border-left: solid 2px #1AA094;">
                     {{!-- body 内容  $ref = temp_body --}}
                 </div>
 
