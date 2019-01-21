@@ -1,8 +1,22 @@
 @charset "utf-8";
 /* head */
-.header{height: 65px; border-bottom: 1px solid #404553;  background-color: #393D49; color: #fff;}
-.logo{position: absolute; left: 0; top: 18px; color: white;font-size: 22px;}
-.logo img{width: 82px; height: 31px;}
+.header{
+    height: 65px;
+    border-bottom: 1px solid #404553;
+    background-color: #393D49;
+    color: #fff;
+}
+.logo{
+    position: absolute;
+    left: 0;
+    top: 18px;
+    color: white;
+    font-size: 22px;
+}
+.logo img{
+    width: 82px;
+    height: 31px;
+}
 .logo small{
     font-size: 10px;
     position: relative;
@@ -14,16 +28,35 @@
     border-radius: 57px;
     background: #7d8492;
     }
-.version{margin: 0;font-family: Titillium Web,sans-serif;color: #fff;}
-.responseJson{padding: 0 0 50px 15px;}
+.version{
+    margin: 0;
+    font-family: Titillium Web,sans-serif;
+    color: #fff;
+}
+.responseJson{
+    padding: 0 0 50px 15px;
+}
 
 /* body */
-.pl10{padding-left: 10px}
-.hide{display: none}
-.site-content {padding: 0 10px 0 10px}
-.bg-grey {background-color: #7d8492;}
-.parameter-text{width:100%;}
-.method-type{ float: right;padding: 0px 0px 5px 0px;}
+.pl10{
+    padding-left: 10px
+}
+.hide{
+    display: none
+}
+.site-content {
+    padding: 0 10px 0 10px
+}
+.bg-grey {
+    background-color: #7d8492;
+}
+.parameter-text{
+    width:100%;
+}
+.method-type{
+    float: right;
+    padding: 0px 0px 5px 0px;
+}
 .method{
     text-transform: uppercase;
     text-decoration: none;
@@ -71,8 +104,8 @@
 .layui-table th {font-weight: 600 !important;}
 .layui-side-scroll {width: 320px !important;}
 .layui-nav-tree {width: 300px !important;}
-.layui-layout-admin .layui-side {width: 300px !important;}
-.layui-body{left:300px}
+.layui-layout-admin .layui-side {width: 240px !important;}
+.layui-body{left:240px}
 .layui-this a cite{color:#fff !important; }
 /*继承layui - end*/
 
@@ -80,5 +113,16 @@
 .red{color: red}
 
 
-.footer{line-height: 44px; text-align: center; background-color: #eee; color: #666; }
-.footer a{padding: 0 5px;}
+.layui-footer{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #eee;
+    color: #666;
+}
+
+.layui-footer .layui-main a{
+    font-size:14px;
+    color: #666;
+    text-decoration: none;
+}

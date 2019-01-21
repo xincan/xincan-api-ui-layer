@@ -42,7 +42,7 @@
                                                         <a href="javascript:;" name="a_path" path="{{:~path.key}}" method="{{:key}}" operationId="{{:prop.operationId}}">
                                                             <i class="fa fa-navicon" data-icon="fa-navicon"></i>
                                                             <!--<cite class="">{{:~path.key}}</cite>-->
-                                                            <cite class="{{:key}}_font pl10">{{:prop.summary}}</cite>
+                                                            <cite class="{{:key}}_font pl10">{{:key}} {{:prop.summary}}</cite>
                                                         </a>
                                                     </dd>
                                                 {{/if}}
@@ -60,7 +60,7 @@
                 </div>
 
                 {{if info.license}}
-                <div class="layui-footer footer">
+                <div class="layui-footer">
                     <div class="layui-main">
                         <a href="{{:info.license.url}}" target="blank">{{:info.license.name}}</a></p>
                     </div>
